@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rupee Hunting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <img class="head-image" src="assets/images/link-rupee.png" alt="link-rupee" width="200px">
+    <div class="container">
+        <h1 class="display-4">Rupees' Hunting</h1>
+        <p class="lead">Help Link to hunt some rupees!!!</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Instructions:</h2>
+            <p>By clicking a rupee, you are adding points to YOUR SCORE.</p>
+            <p>You win by matching your score to the random number.</p>
+            <p>You lose if your score goes higher than the random number</p>
+            <p>The value of each rupee is hidden from you until you click on it</p>
+            <p>The values of the rupees change when the game restarts</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 higher">
+            <h2>Match this score:</h2><h2 id="random-number"></h2>
+        </div>
+        <div class="col-md-6 higher">
+            <h2>Your score:</h2><h2 id="your-score"></h2>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="col-md-3 border col-xs-3 border">
+            <img id="r-rupee" src="assets/images/red-rupee.jpg" alt="red-rupee" width="150">
+        </div>
+        <div class="col-md-3 border col-xs-3 border">
+            <img id="o-rupee" src="assets/images/orangerupee.png" alt="orange-rupee" width="150">
+        </div>
+        <div class="col-md-3 border col-xs-3 border">
+            <img id="p-rupee" src="assets/images/purplerupee.png" alt="purple-rupee" width="150">
+        </div>
+        <div class="col-md-3 border col-xs-3 border">
+            <img id="g-rupee" src="assets/images/greenrupee.png" alt="green-rupee" width="150">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 higher">
+            <h2>Wins:</h2><h2 class="wins"></h2>
+        </div>
+        <div class="col-md-4 higher">
+            <div class ="win-or-lose">
+                <img id="winlose" src="assets/images/link-chibi.png" alt="link-chibi" width="200">
+            </div>
+        </div>
+        <div class="col-md-4 higher">
+            <h2>Losses:</h2><h2 class="losses"></h2>
+        </div>
+
+    </div>
+</div>
+<script src="assets/javascript/game.js"></script>
+
+    
+</body>
+</html>
