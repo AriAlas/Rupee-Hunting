@@ -1,4 +1,4 @@
-# unit-4-game
+# Rupee-Hunting
 
 Instructions:
            By clicking a rupee, you are adding points to YOUR SCORE.
